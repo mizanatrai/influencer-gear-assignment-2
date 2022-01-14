@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav span a{
+    text-decoration: none;
+    color: #3A3A3A;
+    margin-right: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main section div img{
+    width: 440px;
+height: 414px;
+}
+}
+.button{
+    text-decoration: none;
+    background-color: coral;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
