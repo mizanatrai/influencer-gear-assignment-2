@@ -108,6 +108,7 @@ footer{
     text-align: center;
 }
 footer>div>a{
+    font-size: xx-large;
     margin-right: 25px;
     margin-bottom: 200px;
 }
