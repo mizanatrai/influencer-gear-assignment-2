@@ -3,6 +3,10 @@ body{
     background-color: rgb(205, 216, 226);
 }
 
+/* Hover effect  */
+.camera:hover{
+    background-color: white;
+}
 /* Navigation bar styles */
 
 nav span a{
@@ -24,8 +28,8 @@ nav span a{
     align-items: center;
 }
 main section div img.camera{
-    width: 440px;
-height: 414px;
+    width: 380px;
+height: 355px;
 background-color: darkgray;
 border-radius: 600px;
 transition: 0.7s;
@@ -79,13 +83,13 @@ padding-bottom: 50px;
     text-align: center;
 }
 #search-btn{
-    width: 25em;
-    height: 4em;
+    width: 200px;
+    height: 20px;
     font-size: large;
 }
 #submit-btn{
-    width: 300px;
-    height: 4.4em;
+    width: 200px;
+    height: 27px;
     font-size: large;
     background-color: dimgray;
     color: yellow;
@@ -137,9 +141,4 @@ display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
-.camera{
 
-}
-.camera:hover{
-    background-color: white;
-}
