@@ -107,7 +107,10 @@ footer{
     background-color: slategray;
     text-align: center;
 }
-
+footer>div>a{
+    margin-right: 25px;
+    margin-bottom: 200px;
+}
 /*---------------
    Media quries 
 ----------------*/
@@ -124,7 +127,6 @@ display: grid;
     }
     .logo{
         display: none;
-    }
 }
 
 /* Tablet device  */
