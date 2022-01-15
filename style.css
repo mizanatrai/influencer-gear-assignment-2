@@ -43,3 +43,34 @@ border-radius: 600px;
     text-align: center;
     margin-top: 50px;
 }
+/* Products list */
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+justify-content: space-between;
+background-color: #AAAAAA;
+}
+.product{
+    padding-left: 30px;
+    background-color:#FFFFFF;
+}
+
+/* Newsletter Section */
+.newsletter{
+padding-top: 50px;
+padding-bottom: 50px;
+    background-color: burlywood;
+    text-align: center;
+}
+#search-btn{
+    width: 30em;
+    height: 4em;
+    font-size: large;
+}
+#submit-btn{
+    width: 20em;
+    height: 4.4em;
+    font-size: large;
+}
+
+/* Footer Section */
