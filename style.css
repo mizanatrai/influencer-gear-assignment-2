@@ -19,6 +19,7 @@ nav span a{
     justify-content: space-between;
     align-items: center;
 }
+/* Main website  */
 #top-heading{
     margin-left: 15px;
 }
@@ -131,14 +132,16 @@ footer>div>a{
 display: grid;
     }
     .logo{
-        display: none;
+                display: none;}
+        .camera-order{
+            order: 1;
+        }
+        .heading-order{
+            order: 2;
+        }
 }
-
-/* Tablet device  */
-
-@media only screen and (min-width:689px) and (max-width:992px) {
+@media only screen and(min-width:689) and (max-width: 992px){
     .products{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
